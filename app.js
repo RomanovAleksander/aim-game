@@ -88,7 +88,7 @@ function finishGame() {
     screens.forEach((screen) => {
       screen.classList.remove('up');
     });
-    timeEl.parentNode.classList.remove('hide');
     board.innerHTML = ``;
+    timeEl.parentNode.classList.remove('hide');
   }, 3000);
 }
